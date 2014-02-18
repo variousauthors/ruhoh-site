@@ -1,0 +1,39 @@
+
+.grid-item {
+    display: inline-block;
+}
+
+.centered {
+    margin: 0 auto; 
+}
+
+.soft {
+    padding: 5px;
+}
+
+.one-third {
+    width: 30%;
+}
+
+.two-thirds {
+    width: 60%;
+}
+
+h3 {
+    margin-top: 0px;  
+}
+
+.active {
+    font-size: 14px !important;
+}
+
+article {
+    max-height: 200px;
+    min-height: 200px;
+    max-width: 250px;
+    max-width: 250px;
+    border: 5px solid; 
+    vertical-align: top;
+    background-color: white;
+}
+

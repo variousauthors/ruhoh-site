@@ -1,0 +1,27 @@
+---
+title: "ppi!"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <meta name="author" content="{{ data.author.name }}">
+        {{# stylesheets.load }}
+            main.css
+        {{/ stylesheets.load }}
+        {{# javascripts.load }}
+            jquery.min.js
+            main.js
+        {{/ javascripts.load }}
+    </head>
+</html>
+
+<body>
+    <div class="content">
+         {{# posts.all }}
+            {{> post_frame }}
+         {{/ posts.all }}
+    </div>
+</body>
